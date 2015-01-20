@@ -16,7 +16,6 @@ require "logstash/namespace"
 class LogStash::Inputs::Gemfire < LogStash::Inputs::Threadable
 
   config_name "gemfire"
-  milestone 1
 
   default :codec, "plain"
 
