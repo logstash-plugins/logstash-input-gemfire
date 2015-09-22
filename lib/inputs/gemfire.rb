@@ -83,11 +83,11 @@ class LogStash::Inputs::Gemfire < LogStash::Inputs::Threadable
     end
   end # def run
 
-  def teardown
+  def close
     @cache.close if @cache
     @cache = nil
     finished
-  end # def teardown
+  end # def close
 
   protected
   def connect
