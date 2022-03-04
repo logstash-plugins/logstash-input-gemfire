@@ -1,3 +1,6 @@
+## 2.0.8
+  - [IGNORE] test PR [#3](https://api.github.com/repos/logstash-plugins/logstash-input-gemfire/pulls/3)
+
 ## 2.0.7
   - Docs: Set the default_codec doc attribute.
 
