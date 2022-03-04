@@ -31,7 +31,6 @@ queries requires antlr.jar.
 
 Note: this plugin has only been tested with GemFire 7.0.
 
-
 [id="plugins-{type}s-{plugin}-options"]
 ==== Gemfire Input Configuration Options
 
